@@ -99,10 +99,6 @@ A noter que le nom de l'index n'est pas défini dans le fichier bulk, il faudra 
 
 ##### :arrow_forward: Importer les données dans le cluster local
 
-```
-A compléter...
-```
-
 Il y a 1000 documents dans le fichier json. Vérifions que tout a été chargé dans l'index.
 
 ```
