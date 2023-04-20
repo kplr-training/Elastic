@@ -28,7 +28,7 @@ do
   then
     break
   fi
-  curl -XPOST -k -H "Authorization: ApiKey ODV2SW5vY0JvTFRSblgxRF92U0c6WDVzQUhpOGtUS3lKaFk4anJQZVhPdw==" https://kplr.es.us-central1.gcp.cloud.es.io/$1/_bulk  \
+  curl -XPOST -k -H "Authorization: ApiKey ADD_YOUR_API_KEY" ENDPOINT_LINK/$1/_bulk  \
   -H "Content-Type: application/json" \
   --data-binary "@$file" > ingest.log
   #sleep 10s
